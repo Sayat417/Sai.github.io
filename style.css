@@ -1,0 +1,56 @@
+/* Контейнер для центрирования */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Обертка для заголовка и кода */
+.code-wrapper {
+    text-align: left;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Оранжевая шапка */
+.header {
+    background-color: #f7941e;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Блок кода */
+.code-block {
+    background-color: #333;
+    color: #f8f8f2;
+    font-family: monospace;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+/* Имитация редактора кода */
+.selector {
+    color: #ffd866;
+    font-weight: bold;
+}
+
+.property {
+    color: #c3adcd;
+}
+
+.value {
+    color: #f96e6e;
+}
+
+/* Правильное отображение кода */
+pre {
+    margin: 0;
+    white-space: pre;
+}
